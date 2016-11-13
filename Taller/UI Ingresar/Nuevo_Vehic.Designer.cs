@@ -38,7 +38,7 @@
             this.lb_Combustible = new System.Windows.Forms.Label();
             this.cbx_Estilo = new System.Windows.Forms.ComboBox();
             this.lb_Estilo = new System.Windows.Forms.Label();
-            this.btn_Anterior = new System.Windows.Forms.Button();
+            this.btn_Salir = new System.Windows.Forms.Button();
             this.txt_Modelo = new System.Windows.Forms.TextBox();
             this.cbx_Marca = new System.Windows.Forms.ComboBox();
             this.btn_Guardar = new System.Windows.Forms.Button();
@@ -228,20 +228,20 @@
             this.lb_Estilo.TabIndex = 41;
             this.lb_Estilo.Text = "Estilo";
             // 
-            // btn_Anterior
+            // btn_Salir
             // 
-            this.btn_Anterior.BackColor = System.Drawing.Color.SteelBlue;
-            this.btn_Anterior.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Anterior.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_Anterior.Image = global::Taller.Properties.Resources.Salir;
-            this.btn_Anterior.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Anterior.Location = new System.Drawing.Point(12, 364);
-            this.btn_Anterior.Name = "btn_Anterior";
-            this.btn_Anterior.Size = new System.Drawing.Size(91, 31);
-            this.btn_Anterior.TabIndex = 40;
-            this.btn_Anterior.Text = "Salir";
-            this.btn_Anterior.UseVisualStyleBackColor = false;
-            this.btn_Anterior.Click += new System.EventHandler(this.btn_Anterior_Click);
+            this.btn_Salir.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Salir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Salir.Image = global::Taller.Properties.Resources.Salir;
+            this.btn_Salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Salir.Location = new System.Drawing.Point(12, 364);
+            this.btn_Salir.Name = "btn_Salir";
+            this.btn_Salir.Size = new System.Drawing.Size(91, 31);
+            this.btn_Salir.TabIndex = 40;
+            this.btn_Salir.Text = "Salir";
+            this.btn_Salir.UseVisualStyleBackColor = false;
+            this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
             // txt_Modelo
             // 
@@ -392,7 +392,7 @@
             this.Controls.Add(this.lb_Combustible);
             this.Controls.Add(this.cbx_Estilo);
             this.Controls.Add(this.lb_Estilo);
-            this.Controls.Add(this.btn_Anterior);
+            this.Controls.Add(this.btn_Salir);
             this.Controls.Add(this.txt_Modelo);
             this.Controls.Add(this.cbx_Marca);
             this.Controls.Add(this.btn_Guardar);
@@ -421,7 +421,7 @@
         private System.Windows.Forms.Label lb_Combustible;
         private System.Windows.Forms.ComboBox cbx_Estilo;
         private System.Windows.Forms.Label lb_Estilo;
-        private System.Windows.Forms.Button btn_Anterior;
+        private System.Windows.Forms.Button btn_Salir;
         private System.Windows.Forms.TextBox txt_Modelo;
         private System.Windows.Forms.ComboBox cbx_Marca;
         private System.Windows.Forms.Button btn_Guardar;

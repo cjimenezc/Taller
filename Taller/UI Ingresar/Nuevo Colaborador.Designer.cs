@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btn_Salir = new System.Windows.Forms.Button();
+            this.btn_Guardar = new System.Windows.Forms.Button();
+            this.txt_Email = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_Telefono = new System.Windows.Forms.TextBox();
             this.pxb_Cliente = new System.Windows.Forms.PictureBox();
@@ -50,50 +50,50 @@
             this.txt_Identif = new System.Windows.Forms.TextBox();
             this.lb_id = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cmb_Perfil = new System.Windows.Forms.ComboBox();
+            this.txt_Celular = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pxb_Cliente)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_Salir
             // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = global::Taller.Properties.Resources.Salir;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 463);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 31);
-            this.button1.TabIndex = 96;
-            this.button1.Text = "Salir";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Salir.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Salir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Salir.Image = global::Taller.Properties.Resources.Salir;
+            this.btn_Salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Salir.Location = new System.Drawing.Point(12, 463);
+            this.btn_Salir.Name = "btn_Salir";
+            this.btn_Salir.Size = new System.Drawing.Size(95, 31);
+            this.btn_Salir.TabIndex = 96;
+            this.btn_Salir.Text = "Salir";
+            this.btn_Salir.UseVisualStyleBackColor = false;
+            this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
-            // button2
+            // btn_Guardar
             // 
-            this.button2.BackColor = System.Drawing.Color.SteelBlue;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Image = global::Taller.Properties.Resources.Guardar;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(699, 463);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 31);
-            this.button2.TabIndex = 95;
-            this.button2.Text = "   Guardar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_Guardar.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Guardar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Guardar.Image = global::Taller.Properties.Resources.Guardar;
+            this.btn_Guardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Guardar.Location = new System.Drawing.Point(699, 463);
+            this.btn_Guardar.Name = "btn_Guardar";
+            this.btn_Guardar.Size = new System.Drawing.Size(95, 31);
+            this.btn_Guardar.TabIndex = 95;
+            this.btn_Guardar.Text = "   Guardar";
+            this.btn_Guardar.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txt_Email
             // 
-            this.textBox1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(144, 349);
-            this.textBox1.MaxLength = 8;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 26);
-            this.textBox1.TabIndex = 93;
+            this.txt_Email.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Email.Location = new System.Drawing.Point(144, 349);
+            this.txt_Email.MaxLength = 8;
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(191, 26);
+            this.txt_Email.TabIndex = 93;
             // 
             // label1
             // 
@@ -101,9 +101,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(27, 355);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 20);
+            this.label1.Size = new System.Drawing.Size(53, 20);
             this.label1.TabIndex = 94;
-            this.label1.Text = "Email";
+            this.label1.Text = "E-mail";
             // 
             // txt_Telefono
             // 
@@ -291,26 +291,26 @@
             this.label2.TabIndex = 98;
             this.label2.Text = "Perfil";
             // 
-            // comboBox1
+            // cmb_Perfil
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmb_Perfil.FormattingEnabled = true;
+            this.cmb_Perfil.Items.AddRange(new object[] {
             "Administrador",
             "Colaborador"});
-            this.comboBox1.Location = new System.Drawing.Point(533, 307);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 99;
+            this.cmb_Perfil.Location = new System.Drawing.Point(533, 307);
+            this.cmb_Perfil.Name = "cmb_Perfil";
+            this.cmb_Perfil.Size = new System.Drawing.Size(121, 21);
+            this.cmb_Perfil.TabIndex = 99;
             // 
-            // textBox2
+            // txt_Celular
             // 
-            this.textBox2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(145, 305);
-            this.textBox2.MaxLength = 8;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(191, 26);
-            this.textBox2.TabIndex = 100;
+            this.txt_Celular.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_Celular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Celular.Location = new System.Drawing.Point(145, 305);
+            this.txt_Celular.MaxLength = 8;
+            this.txt_Celular.Name = "txt_Celular";
+            this.txt_Celular.Size = new System.Drawing.Size(191, 26);
+            this.txt_Celular.TabIndex = 100;
             // 
             // label3
             // 
@@ -327,13 +327,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(806, 506);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_Celular);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmb_Perfil);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_Salir);
+            this.Controls.Add(this.btn_Guardar);
+            this.Controls.Add(this.txt_Email);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Telefono);
             this.Controls.Add(this.pxb_Cliente);
@@ -364,9 +364,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btn_Salir;
+        private System.Windows.Forms.Button btn_Guardar;
+        private System.Windows.Forms.TextBox txt_Email;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_Telefono;
         private System.Windows.Forms.PictureBox pxb_Cliente;
@@ -386,8 +386,8 @@
         private System.Windows.Forms.TextBox txt_Identif;
         private System.Windows.Forms.Label lb_id;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ComboBox cmb_Perfil;
+        private System.Windows.Forms.TextBox txt_Celular;
         private System.Windows.Forms.Label label3;
     }
 }

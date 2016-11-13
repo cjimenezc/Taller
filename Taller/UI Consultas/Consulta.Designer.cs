@@ -43,8 +43,8 @@
             this.rdb_Cliente = new System.Windows.Forms.RadioButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lb_InfoCliente = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rdb_Factura = new System.Windows.Forms.RadioButton();
+            this.rdb_Trabajos = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -57,7 +57,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_Salir = new System.Windows.Forms.Button();
             this.panel_Vh.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -136,7 +136,7 @@
             this.rdb_Vehiculo.Name = "rdb_Vehiculo";
             this.rdb_Vehiculo.Size = new System.Drawing.Size(92, 24);
             this.rdb_Vehiculo.TabIndex = 67;
-            this.rdb_Vehiculo.Text = "Vehiculo";
+            this.rdb_Vehiculo.Text = "Vehículo";
             this.rdb_Vehiculo.UseVisualStyleBackColor = true;
             // 
             // rdb_Colaborador
@@ -182,27 +182,27 @@
             this.lb_InfoCliente.TabIndex = 72;
             this.lb_InfoCliente.Text = "Consulta";
             // 
-            // radioButton1
+            // rdb_Factura
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(493, 130);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(80, 24);
-            this.radioButton1.TabIndex = 73;
-            this.radioButton1.Text = "Factura";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdb_Factura.AutoSize = true;
+            this.rdb_Factura.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdb_Factura.Location = new System.Drawing.Point(493, 130);
+            this.rdb_Factura.Name = "rdb_Factura";
+            this.rdb_Factura.Size = new System.Drawing.Size(80, 24);
+            this.rdb_Factura.TabIndex = 73;
+            this.rdb_Factura.Text = "Factura";
+            this.rdb_Factura.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdb_Trabajos
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(610, 130);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(88, 24);
-            this.radioButton2.TabIndex = 74;
-            this.radioButton2.Text = "Trabajos";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdb_Trabajos.AutoSize = true;
+            this.rdb_Trabajos.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdb_Trabajos.Location = new System.Drawing.Point(610, 130);
+            this.rdb_Trabajos.Name = "rdb_Trabajos";
+            this.rdb_Trabajos.Size = new System.Drawing.Size(88, 24);
+            this.rdb_Trabajos.TabIndex = 74;
+            this.rdb_Trabajos.Text = "Trabajos";
+            this.rdb_Trabajos.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -357,26 +357,27 @@
             this.label1.TabIndex = 21;
             this.label1.Text = "Trabajo #";
             // 
-            // button1
+            // btn_Salir
             // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = global::Taller.Properties.Resources.Salir;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 407);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 36);
-            this.button1.TabIndex = 81;
-            this.button1.Text = "Salir";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_Salir.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Salir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Salir.Image = global::Taller.Properties.Resources.Salir;
+            this.btn_Salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Salir.Location = new System.Drawing.Point(12, 407);
+            this.btn_Salir.Name = "btn_Salir";
+            this.btn_Salir.Size = new System.Drawing.Size(93, 36);
+            this.btn_Salir.TabIndex = 81;
+            this.btn_Salir.Text = "Salir";
+            this.btn_Salir.UseVisualStyleBackColor = false;
+            this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
             // Consulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 455);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Salir);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.DGV);
@@ -385,8 +386,8 @@
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.rdb_Trabajos);
+            this.Controls.Add(this.rdb_Factura);
             this.Controls.Add(this.lb_InfoCliente);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel_Vh);
@@ -427,8 +428,8 @@
         private System.Windows.Forms.RadioButton rdb_Colaborador;
         private System.Windows.Forms.RadioButton rdb_Cliente;
         private System.Windows.Forms.Label lb_InfoCliente;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton rdb_Factura;
+        private System.Windows.Forms.RadioButton rdb_Trabajos;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
@@ -441,6 +442,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_Salir;
     }
 }

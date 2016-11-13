@@ -52,29 +52,29 @@
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Descripción = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha_hora = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_Agegar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txt_subtotal = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_Descuento = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txt_Subtotal2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txt_iv = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txt_Total = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.button6 = new System.Windows.Forms.Button();
+            this.btn_descargar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btn_Email = new System.Windows.Forms.Button();
+            this.btn_imprimir = new System.Windows.Forms.Button();
+            this.btn_Salir = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
@@ -205,9 +205,9 @@
             this.groupBox2.Controls.Add(this.btn_eliminar);
             this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.dgv_Inventario);
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.txt);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.btn_Agegar);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.numericUpDown1);
             this.groupBox2.Controls.Add(this.label3);
@@ -340,15 +340,15 @@
             this.Fecha_hora.ReadOnly = true;
             this.Fecha_hora.Width = 120;
             // 
-            // textBox3
+            // txt
             // 
-            this.textBox3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(110, 25);
-            this.textBox3.MaxLength = 250;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(362, 26);
-            this.textBox3.TabIndex = 70;
+            this.txt.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt.Location = new System.Drawing.Point(110, 25);
+            this.txt.MaxLength = 250;
+            this.txt.Name = "txt";
+            this.txt.Size = new System.Drawing.Size(362, 26);
+            this.txt.TabIndex = 70;
             // 
             // label4
             // 
@@ -360,19 +360,19 @@
             this.label4.TabIndex = 68;
             this.label4.Text = "Precio Uni";
             // 
-            // button2
+            // btn_Agegar
             // 
-            this.button2.BackColor = System.Drawing.Color.SteelBlue;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Image = global::Taller.Properties.Resources.icono_mas_informacion;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(503, 64);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 35);
-            this.button2.TabIndex = 64;
-            this.button2.Text = "      Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_Agegar.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Agegar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Agegar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Agegar.Image = global::Taller.Properties.Resources.icono_mas_informacion;
+            this.btn_Agegar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Agegar.Location = new System.Drawing.Point(503, 64);
+            this.btn_Agegar.Name = "btn_Agegar";
+            this.btn_Agegar.Size = new System.Drawing.Size(105, 35);
+            this.btn_Agegar.TabIndex = 64;
+            this.btn_Agegar.Text = "      Agregar";
+            this.btn_Agegar.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -402,15 +402,15 @@
             this.label3.TabIndex = 58;
             this.label3.Text = "Descripción";
             // 
-            // textBox5
+            // txt_subtotal
             // 
-            this.textBox5.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(807, 360);
-            this.textBox5.MaxLength = 250;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(113, 26);
-            this.textBox5.TabIndex = 66;
+            this.txt_subtotal.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_subtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_subtotal.Location = new System.Drawing.Point(807, 360);
+            this.txt_subtotal.MaxLength = 250;
+            this.txt_subtotal.Name = "txt_subtotal";
+            this.txt_subtotal.Size = new System.Drawing.Size(113, 26);
+            this.txt_subtotal.TabIndex = 66;
             // 
             // label5
             // 
@@ -423,15 +423,15 @@
             this.label5.TabIndex = 67;
             this.label5.Text = "Subtotal     ₡";
             // 
-            // textBox6
+            // txt_Descuento
             // 
-            this.textBox6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(807, 393);
-            this.textBox6.MaxLength = 250;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(113, 26);
-            this.textBox6.TabIndex = 68;
+            this.txt_Descuento.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_Descuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Descuento.Location = new System.Drawing.Point(807, 393);
+            this.txt_Descuento.MaxLength = 250;
+            this.txt_Descuento.Name = "txt_Descuento";
+            this.txt_Descuento.Size = new System.Drawing.Size(113, 26);
+            this.txt_Descuento.TabIndex = 68;
             // 
             // label6
             // 
@@ -444,15 +444,15 @@
             this.label6.TabIndex = 69;
             this.label6.Text = "Descuento ₡";
             // 
-            // textBox7
+            // txt_Subtotal2
             // 
-            this.textBox7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(807, 425);
-            this.textBox7.MaxLength = 250;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(113, 26);
-            this.textBox7.TabIndex = 70;
+            this.txt_Subtotal2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_Subtotal2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Subtotal2.Location = new System.Drawing.Point(807, 425);
+            this.txt_Subtotal2.MaxLength = 250;
+            this.txt_Subtotal2.Name = "txt_Subtotal2";
+            this.txt_Subtotal2.Size = new System.Drawing.Size(113, 26);
+            this.txt_Subtotal2.TabIndex = 70;
             // 
             // label7
             // 
@@ -465,15 +465,15 @@
             this.label7.TabIndex = 71;
             this.label7.Text = "Subtotal    ₡";
             // 
-            // textBox8
+            // txt_iv
             // 
-            this.textBox8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(807, 454);
-            this.textBox8.MaxLength = 250;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(113, 26);
-            this.textBox8.TabIndex = 72;
+            this.txt_iv.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_iv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_iv.Location = new System.Drawing.Point(807, 454);
+            this.txt_iv.MaxLength = 250;
+            this.txt_iv.Name = "txt_iv";
+            this.txt_iv.Size = new System.Drawing.Size(113, 26);
+            this.txt_iv.TabIndex = 72;
             // 
             // label8
             // 
@@ -486,15 +486,15 @@
             this.label8.TabIndex = 73;
             this.label8.Text = "IV               ₡";
             // 
-            // textBox9
+            // txt_Total
             // 
-            this.textBox9.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(808, 483);
-            this.textBox9.MaxLength = 250;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(112, 26);
-            this.textBox9.TabIndex = 74;
+            this.txt_Total.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_Total.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Total.Location = new System.Drawing.Point(808, 483);
+            this.txt_Total.MaxLength = 250;
+            this.txt_Total.Name = "txt_Total";
+            this.txt_Total.Size = new System.Drawing.Size(112, 26);
+            this.txt_Total.TabIndex = 74;
             // 
             // label9
             // 
@@ -507,19 +507,19 @@
             this.label9.TabIndex = 75;
             this.label9.Text = "Total          ₡";
             // 
-            // button6
+            // btn_descargar
             // 
-            this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Image = global::Taller.Properties.Resources.pdf;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(251, 511);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(129, 51);
-            this.button6.TabIndex = 80;
-            this.button6.Text = "         Descargar";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btn_descargar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_descargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_descargar.ForeColor = System.Drawing.Color.Black;
+            this.btn_descargar.Image = global::Taller.Properties.Resources.pdf;
+            this.btn_descargar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_descargar.Location = new System.Drawing.Point(251, 511);
+            this.btn_descargar.Name = "btn_descargar";
+            this.btn_descargar.Size = new System.Drawing.Size(129, 51);
+            this.btn_descargar.TabIndex = 80;
+            this.btn_descargar.Text = "         Descargar";
+            this.btn_descargar.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -531,84 +531,84 @@
             this.pictureBox1.TabIndex = 79;
             this.pictureBox1.TabStop = false;
             // 
-            // button7
+            // btnGuardar
             // 
-            this.button7.BackColor = System.Drawing.Color.SteelBlue;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button7.Image = global::Taller.Properties.Resources.Guardar;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(840, 526);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(93, 36);
-            this.button7.TabIndex = 73;
-            this.button7.Text = "   Guadar";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnGuardar.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnGuardar.Image = global::Taller.Properties.Resources.Guardar;
+            this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuardar.Location = new System.Drawing.Point(840, 526);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(93, 36);
+            this.btnGuardar.TabIndex = 73;
+            this.btnGuardar.Text = "   Guadar";
+            this.btnGuardar.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btn_Email
             // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Image = global::Taller.Properties.Resources.email;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(548, 513);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(98, 49);
-            this.button5.TabIndex = 77;
-            this.button5.Text = "          Email";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_Email.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Email.ForeColor = System.Drawing.Color.Black;
+            this.btn_Email.Image = global::Taller.Properties.Resources.email;
+            this.btn_Email.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Email.Location = new System.Drawing.Point(548, 513);
+            this.btn_Email.Name = "btn_Email";
+            this.btn_Email.Size = new System.Drawing.Size(98, 49);
+            this.btn_Email.TabIndex = 77;
+            this.btn_Email.Text = "          Email";
+            this.btn_Email.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn_imprimir
             // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Image = global::Taller.Properties.Resources.print_friendly_blog_posts_button;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(402, 511);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(123, 51);
-            this.button4.TabIndex = 76;
-            this.button4.Text = "            Imprimir";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_imprimir.BackColor = System.Drawing.Color.Transparent;
+            this.btn_imprimir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_imprimir.ForeColor = System.Drawing.Color.Black;
+            this.btn_imprimir.Image = global::Taller.Properties.Resources.print_friendly_blog_posts_button;
+            this.btn_imprimir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_imprimir.Location = new System.Drawing.Point(402, 511);
+            this.btn_imprimir.Name = "btn_imprimir";
+            this.btn_imprimir.Size = new System.Drawing.Size(123, 51);
+            this.btn_imprimir.TabIndex = 76;
+            this.btn_imprimir.Text = "            Imprimir";
+            this.btn_imprimir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_imprimir.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btn_Salir
             // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = global::Taller.Properties.Resources.Salir;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 526);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 36);
-            this.button1.TabIndex = 73;
-            this.button1.Text = "Salir";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Salir.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Salir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Salir.Image = global::Taller.Properties.Resources.Salir;
+            this.btn_Salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Salir.Location = new System.Drawing.Point(12, 526);
+            this.btn_Salir.Name = "btn_Salir";
+            this.btn_Salir.Size = new System.Drawing.Size(93, 36);
+            this.btn_Salir.TabIndex = 73;
+            this.btn_Salir.Text = "Salir";
+            this.btn_Salir.UseVisualStyleBackColor = false;
+            this.btn_Salir.Click += new System.EventHandler(this.button1_Click);
             // 
             // Facturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(939, 574);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btn_descargar);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btn_Email);
+            this.Controls.Add(this.btn_imprimir);
+            this.Controls.Add(this.btn_Salir);
+            this.Controls.Add(this.txt_Total);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txt_iv);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txt_Subtotal2);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txt_Descuento);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txt_subtotal);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -647,7 +647,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_Agegar;
         private System.Windows.Forms.DataGridView dgv_Inventario;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descripción;
@@ -657,26 +657,26 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_subtotal;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_Descuento;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txt_Subtotal2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txt_iv;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txt_Total;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btn_Salir;
+        private System.Windows.Forms.Button btn_imprimir;
+        private System.Windows.Forms.Button btn_Email;
+        private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btn_descargar;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.ToolTip toolTip1;
     }

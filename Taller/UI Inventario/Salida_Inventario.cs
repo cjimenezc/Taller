@@ -16,13 +16,7 @@ namespace Taller
         {
             InitializeComponent();
         }
-
-
-        private void Salida_Inventario_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void btn_Salir_Click_1(object sender, EventArgs e)
         {
             this.Close();

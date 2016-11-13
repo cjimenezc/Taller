@@ -45,11 +45,11 @@
             this.txt_Identif = new System.Windows.Forms.TextBox();
             this.lb_id = new System.Windows.Forms.Label();
             this.pxb_Cliente = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Email = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btn_Salir = new System.Windows.Forms.Button();
+            this.btn_Guardar = new System.Windows.Forms.Button();
+            this.txt_Celular = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pxb_Cliente)).BeginInit();
             this.SuspendLayout();
@@ -247,15 +247,15 @@
             this.pxb_Cliente.TabStop = false;
             this.pxb_Cliente.Click += new System.EventHandler(this.pxb_Cliente_Click);
             // 
-            // textBox1
+            // txt_Email
             // 
-            this.textBox1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(143, 356);
-            this.textBox1.MaxLength = 8;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 26);
-            this.textBox1.TabIndex = 38;
+            this.txt_Email.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Email.Location = new System.Drawing.Point(143, 356);
+            this.txt_Email.MaxLength = 8;
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(191, 26);
+            this.txt_Email.TabIndex = 38;
             // 
             // label1
             // 
@@ -263,48 +263,48 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(26, 362);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 20);
+            this.label1.Size = new System.Drawing.Size(53, 20);
             this.label1.TabIndex = 39;
-            this.label1.Text = "Email";
+            this.label1.Text = "E-mail";
             // 
-            // button1
+            // btn_Salir
             // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = global::Taller.Properties.Resources.Salir;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 468);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 31);
-            this.button1.TabIndex = 75;
-            this.button1.Text = "Salir";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Salir.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Salir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Salir.Image = global::Taller.Properties.Resources.Salir;
+            this.btn_Salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Salir.Location = new System.Drawing.Point(12, 468);
+            this.btn_Salir.Name = "btn_Salir";
+            this.btn_Salir.Size = new System.Drawing.Size(95, 31);
+            this.btn_Salir.TabIndex = 75;
+            this.btn_Salir.Text = "Salir";
+            this.btn_Salir.UseVisualStyleBackColor = false;
+            this.btn_Salir.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btn_Guardar
             // 
-            this.button2.BackColor = System.Drawing.Color.SteelBlue;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Image = global::Taller.Properties.Resources.Guardar;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(714, 468);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 31);
-            this.button2.TabIndex = 74;
-            this.button2.Text = "   Guardar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_Guardar.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Guardar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Guardar.Image = global::Taller.Properties.Resources.Guardar;
+            this.btn_Guardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Guardar.Location = new System.Drawing.Point(714, 468);
+            this.btn_Guardar.Name = "btn_Guardar";
+            this.btn_Guardar.Size = new System.Drawing.Size(95, 31);
+            this.btn_Guardar.TabIndex = 74;
+            this.btn_Guardar.Text = "   Guardar";
+            this.btn_Guardar.UseVisualStyleBackColor = false;
             // 
-            // textBox2
+            // txt_Celular
             // 
-            this.textBox2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(142, 315);
-            this.textBox2.MaxLength = 8;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(191, 26);
-            this.textBox2.TabIndex = 76;
+            this.txt_Celular.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_Celular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Celular.Location = new System.Drawing.Point(142, 315);
+            this.txt_Celular.MaxLength = 8;
+            this.txt_Celular.Name = "txt_Celular";
+            this.txt_Celular.Size = new System.Drawing.Size(191, 26);
+            this.txt_Celular.TabIndex = 76;
             // 
             // label2
             // 
@@ -321,11 +321,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(821, 511);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_Celular);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_Salir);
+            this.Controls.Add(this.btn_Guardar);
+            this.Controls.Add(this.txt_Email);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Telefono);
             this.Controls.Add(this.pxb_Cliente);
@@ -373,11 +373,11 @@
         private System.Windows.Forms.Label lb_Nombre;
         private System.Windows.Forms.TextBox txt_Identif;
         private System.Windows.Forms.Label lb_id;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Email;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btn_Salir;
+        private System.Windows.Forms.Button btn_Guardar;
+        private System.Windows.Forms.TextBox txt_Celular;
         private System.Windows.Forms.Label label2;
 
     }

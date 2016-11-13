@@ -17,14 +17,9 @@ namespace Taller
             InitializeComponent();
         }
 
-        private void btn_Anterior_Click(object sender, EventArgs e)
+        private void btn_Salir_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }
-
-        private void lb_InfoCliente_Click(object sender, EventArgs e)
-        {
-
+            Close();
         }
     }
 }

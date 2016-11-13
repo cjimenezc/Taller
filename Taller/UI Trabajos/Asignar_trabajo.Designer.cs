@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.dateTimePicker_trabajo = new System.Windows.Forms.DateTimePicker();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.dtp_trabajo = new System.Windows.Forms.DateTimePicker();
             this.panel_ColabDisponibl = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.dataGridView_ColabDisponib = new System.Windows.Forms.DataGridView();
+            this.dgw_ColabDisponib = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_Observaciones = new System.Windows.Forms.TextBox();
             this.lb_InfoCliente = new System.Windows.Forms.Label();
@@ -47,37 +47,37 @@
             this.txt_Placa = new System.Windows.Forms.TextBox();
             this.lb_Placa = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.ckbx_Baul = new System.Windows.Forms.CheckBox();
+            this.ckbx_Estribo = new System.Windows.Forms.CheckBox();
+            this.ckbx_BumTra = new System.Windows.Forms.CheckBox();
+            this.ckbx_PuertaIzTra = new System.Windows.Forms.CheckBox();
+            this.ckbx_Techo = new System.Windows.Forms.CheckBox();
+            this.ckbx_Taps = new System.Windows.Forms.CheckBox();
+            this.ckbx_BumDel = new System.Windows.Forms.CheckBox();
+            this.ckbx_PuertaIzDe = new System.Windows.Forms.CheckBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btn_Siguente = new System.Windows.Forms.Button();
+            this.btn_Salir = new System.Windows.Forms.Button();
+            this.btn_Gaurdar = new System.Windows.Forms.Button();
             this.panel_ColabDisponibl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ColabDisponib)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgw_ColabDisponib)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dateTimePicker_trabajo
+            // dtp_trabajo
             // 
-            this.dateTimePicker_trabajo.Location = new System.Drawing.Point(51, 290);
-            this.dateTimePicker_trabajo.Name = "dateTimePicker_trabajo";
-            this.dateTimePicker_trabajo.Size = new System.Drawing.Size(208, 20);
-            this.dateTimePicker_trabajo.TabIndex = 87;
+            this.dtp_trabajo.Location = new System.Drawing.Point(51, 290);
+            this.dtp_trabajo.Name = "dtp_trabajo";
+            this.dtp_trabajo.Size = new System.Drawing.Size(208, 20);
+            this.dtp_trabajo.TabIndex = 87;
             // 
             // panel_ColabDisponibl
             // 
             this.panel_ColabDisponibl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel_ColabDisponibl.Controls.Add(this.label4);
-            this.panel_ColabDisponibl.Controls.Add(this.dataGridView_ColabDisponib);
+            this.panel_ColabDisponibl.Controls.Add(this.dgw_ColabDisponib);
             this.panel_ColabDisponibl.Location = new System.Drawing.Point(24, 74);
             this.panel_ColabDisponibl.Name = "panel_ColabDisponibl";
             this.panel_ColabDisponibl.Size = new System.Drawing.Size(416, 206);
@@ -95,39 +95,39 @@
             this.label4.TabIndex = 68;
             this.label4.Text = "Colaboradores Disponibles";
             // 
-            // dataGridView_ColabDisponib
+            // dgw_ColabDisponib
             // 
-            this.dataGridView_ColabDisponib.AllowUserToAddRows = false;
-            this.dataGridView_ColabDisponib.AllowUserToDeleteRows = false;
-            this.dataGridView_ColabDisponib.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.dataGridView_ColabDisponib.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView_ColabDisponib.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            this.dataGridView_ColabDisponib.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView_ColabDisponib.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView_ColabDisponib.GridColor = System.Drawing.Color.Gainsboro;
-            this.dataGridView_ColabDisponib.Location = new System.Drawing.Point(55, 30);
-            this.dataGridView_ColabDisponib.Name = "dataGridView_ColabDisponib";
-            this.dataGridView_ColabDisponib.ReadOnly = true;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_ColabDisponib.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView_ColabDisponib.RowHeadersVisible = false;
-            this.dataGridView_ColabDisponib.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridView_ColabDisponib.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView_ColabDisponib.Size = new System.Drawing.Size(315, 159);
-            this.dataGridView_ColabDisponib.TabIndex = 67;
+            this.dgw_ColabDisponib.AllowUserToAddRows = false;
+            this.dgw_ColabDisponib.AllowUserToDeleteRows = false;
+            this.dgw_ColabDisponib.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dgw_ColabDisponib.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgw_ColabDisponib.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.dgw_ColabDisponib.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgw_ColabDisponib.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgw_ColabDisponib.GridColor = System.Drawing.Color.Gainsboro;
+            this.dgw_ColabDisponib.Location = new System.Drawing.Point(55, 30);
+            this.dgw_ColabDisponib.Name = "dgw_ColabDisponib";
+            this.dgw_ColabDisponib.ReadOnly = true;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgw_ColabDisponib.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgw_ColabDisponib.RowHeadersVisible = false;
+            this.dgw_ColabDisponib.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dgw_ColabDisponib.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgw_ColabDisponib.Size = new System.Drawing.Size(315, 159);
+            this.dgw_ColabDisponib.TabIndex = 67;
             // 
             // label1
             // 
@@ -267,102 +267,102 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.checkBox8);
-            this.panel1.Controls.Add(this.checkBox7);
-            this.panel1.Controls.Add(this.checkBox6);
-            this.panel1.Controls.Add(this.checkBox5);
-            this.panel1.Controls.Add(this.checkBox4);
-            this.panel1.Controls.Add(this.checkBox3);
-            this.panel1.Controls.Add(this.checkBox2);
-            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.Controls.Add(this.ckbx_Baul);
+            this.panel1.Controls.Add(this.ckbx_Estribo);
+            this.panel1.Controls.Add(this.ckbx_BumTra);
+            this.panel1.Controls.Add(this.ckbx_PuertaIzTra);
+            this.panel1.Controls.Add(this.ckbx_Techo);
+            this.panel1.Controls.Add(this.ckbx_Taps);
+            this.panel1.Controls.Add(this.ckbx_BumDel);
+            this.panel1.Controls.Add(this.ckbx_PuertaIzDe);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(455, 84);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(540, 327);
             this.panel1.TabIndex = 90;
             // 
-            // checkBox8
+            // ckbx_Baul
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(450, 98);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(47, 17);
-            this.checkBox8.TabIndex = 8;
-            this.checkBox8.Text = "Baul";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.ckbx_Baul.AutoSize = true;
+            this.ckbx_Baul.Location = new System.Drawing.Point(450, 98);
+            this.ckbx_Baul.Name = "ckbx_Baul";
+            this.ckbx_Baul.Size = new System.Drawing.Size(47, 17);
+            this.ckbx_Baul.TabIndex = 8;
+            this.ckbx_Baul.Text = "Baul";
+            this.ckbx_Baul.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // ckbx_Estribo
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox7.Location = new System.Drawing.Point(246, 217);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(58, 17);
-            this.checkBox7.TabIndex = 7;
-            this.checkBox7.Text = "Estribo";
-            this.checkBox7.UseVisualStyleBackColor = false;
+            this.ckbx_Estribo.AutoSize = true;
+            this.ckbx_Estribo.BackColor = System.Drawing.Color.Transparent;
+            this.ckbx_Estribo.Location = new System.Drawing.Point(246, 217);
+            this.ckbx_Estribo.Name = "ckbx_Estribo";
+            this.ckbx_Estribo.Size = new System.Drawing.Size(58, 17);
+            this.ckbx_Estribo.TabIndex = 7;
+            this.ckbx_Estribo.Text = "Estribo";
+            this.ckbx_Estribo.UseVisualStyleBackColor = false;
             // 
-            // checkBox6
+            // ckbx_BumTra
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(442, 191);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(98, 17);
-            this.checkBox6.TabIndex = 6;
-            this.checkBox6.Text = "Bumper tracero";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.ckbx_BumTra.AutoSize = true;
+            this.ckbx_BumTra.Location = new System.Drawing.Point(442, 191);
+            this.ckbx_BumTra.Name = "ckbx_BumTra";
+            this.ckbx_BumTra.Size = new System.Drawing.Size(98, 17);
+            this.ckbx_BumTra.TabIndex = 6;
+            this.ckbx_BumTra.Text = "Bumper tracero";
+            this.ckbx_BumTra.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // ckbx_PuertaIzTra
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(298, 144);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(109, 17);
-            this.checkBox5.TabIndex = 5;
-            this.checkBox5.Text = "Puerta izq tracera";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.ckbx_PuertaIzTra.AutoSize = true;
+            this.ckbx_PuertaIzTra.Location = new System.Drawing.Point(298, 144);
+            this.ckbx_PuertaIzTra.Name = "ckbx_PuertaIzTra";
+            this.ckbx_PuertaIzTra.Size = new System.Drawing.Size(109, 17);
+            this.ckbx_PuertaIzTra.TabIndex = 5;
+            this.ckbx_PuertaIzTra.Text = "Puerta izq tracera";
+            this.ckbx_PuertaIzTra.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // ckbx_Techo
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.BackColor = System.Drawing.Color.White;
-            this.checkBox4.Location = new System.Drawing.Point(282, 49);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(57, 17);
-            this.checkBox4.TabIndex = 4;
-            this.checkBox4.Text = "Techo";
-            this.checkBox4.UseVisualStyleBackColor = false;
+            this.ckbx_Techo.AutoSize = true;
+            this.ckbx_Techo.BackColor = System.Drawing.Color.White;
+            this.ckbx_Techo.Location = new System.Drawing.Point(282, 49);
+            this.ckbx_Techo.Name = "ckbx_Techo";
+            this.ckbx_Techo.Size = new System.Drawing.Size(57, 17);
+            this.ckbx_Techo.TabIndex = 4;
+            this.ckbx_Techo.Text = "Techo";
+            this.ckbx_Techo.UseVisualStyleBackColor = false;
             // 
-            // checkBox3
+            // ckbx_Taps
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox3.Location = new System.Drawing.Point(75, 107);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(51, 17);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = "Tapa";
-            this.checkBox3.UseVisualStyleBackColor = false;
+            this.ckbx_Taps.AutoSize = true;
+            this.ckbx_Taps.BackColor = System.Drawing.Color.Transparent;
+            this.ckbx_Taps.Location = new System.Drawing.Point(75, 107);
+            this.ckbx_Taps.Name = "ckbx_Taps";
+            this.ckbx_Taps.Size = new System.Drawing.Size(51, 17);
+            this.ckbx_Taps.TabIndex = 3;
+            this.ckbx_Taps.Text = "Tapa";
+            this.ckbx_Taps.UseVisualStyleBackColor = false;
             // 
-            // checkBox2
+            // ckbx_BumDel
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(48, 185);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(94, 17);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "Bumper delant";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.ckbx_BumDel.AutoSize = true;
+            this.ckbx_BumDel.Location = new System.Drawing.Point(48, 185);
+            this.ckbx_BumDel.Name = "ckbx_BumDel";
+            this.ckbx_BumDel.Size = new System.Drawing.Size(94, 17);
+            this.ckbx_BumDel.TabIndex = 2;
+            this.ckbx_BumDel.Text = "Bumper delant";
+            this.ckbx_BumDel.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // ckbx_PuertaIzDe
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(172, 144);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(105, 17);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "Puerta izq delant";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.ckbx_PuertaIzDe.AutoSize = true;
+            this.ckbx_PuertaIzDe.Location = new System.Drawing.Point(172, 144);
+            this.ckbx_PuertaIzDe.Name = "ckbx_PuertaIzDe";
+            this.ckbx_PuertaIzDe.Size = new System.Drawing.Size(105, 17);
+            this.ckbx_PuertaIzDe.TabIndex = 1;
+            this.ckbx_PuertaIzDe.Text = "Puerta izq delant";
+            this.ckbx_PuertaIzDe.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
             // 
@@ -384,45 +384,45 @@
             this.pictureBox1.TabIndex = 88;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // btn_Salir
             // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = global::Taller.Properties.Resources.Salir;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 474);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 31);
-            this.button1.TabIndex = 92;
-            this.button1.Text = "Salir";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Salir.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Salir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Salir.Image = global::Taller.Properties.Resources.Salir;
+            this.btn_Salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Salir.Location = new System.Drawing.Point(12, 474);
+            this.btn_Salir.Name = "btn_Salir";
+            this.btn_Salir.Size = new System.Drawing.Size(95, 31);
+            this.btn_Salir.TabIndex = 92;
+            this.btn_Salir.Text = "Salir";
+            this.btn_Salir.UseVisualStyleBackColor = false;
+            this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
-            // btn_Siguente
+            // btn_Gaurdar
             // 
-            this.btn_Siguente.BackColor = System.Drawing.Color.SteelBlue;
-            this.btn_Siguente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Siguente.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_Siguente.Image = global::Taller.Properties.Resources.Guardar;
-            this.btn_Siguente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Siguente.Location = new System.Drawing.Point(897, 474);
-            this.btn_Siguente.Name = "btn_Siguente";
-            this.btn_Siguente.Size = new System.Drawing.Size(95, 31);
-            this.btn_Siguente.TabIndex = 91;
-            this.btn_Siguente.Text = "   Guardar";
-            this.btn_Siguente.UseVisualStyleBackColor = false;
+            this.btn_Gaurdar.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Gaurdar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Gaurdar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Gaurdar.Image = global::Taller.Properties.Resources.Guardar;
+            this.btn_Gaurdar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Gaurdar.Location = new System.Drawing.Point(897, 474);
+            this.btn_Gaurdar.Name = "btn_Gaurdar";
+            this.btn_Gaurdar.Size = new System.Drawing.Size(95, 31);
+            this.btn_Gaurdar.TabIndex = 91;
+            this.btn_Gaurdar.Text = "   Guardar";
+            this.btn_Gaurdar.UseVisualStyleBackColor = false;
             // 
             // Asignar_trabajo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(998, 508);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btn_Siguente);
+            this.Controls.Add(this.btn_Salir);
+            this.Controls.Add(this.btn_Gaurdar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.dateTimePicker_trabajo);
+            this.Controls.Add(this.dtp_trabajo);
             this.Controls.Add(this.panel_ColabDisponibl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Observaciones);
@@ -442,7 +442,7 @@
             this.Text = "Asignar_trabajo";
             this.panel_ColabDisponibl.ResumeLayout(false);
             this.panel_ColabDisponibl.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ColabDisponib)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgw_ColabDisponib)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -455,10 +455,10 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker_trabajo;
+        private System.Windows.Forms.DateTimePicker dtp_trabajo;
         private System.Windows.Forms.Panel panel_ColabDisponibl;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridView dataGridView_ColabDisponib;
+        private System.Windows.Forms.DataGridView dgw_ColabDisponib;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_Observaciones;
         private System.Windows.Forms.Label lb_InfoCliente;
@@ -473,15 +473,15 @@
         private System.Windows.Forms.Label lb_Placa;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btn_Siguente;
+        private System.Windows.Forms.CheckBox ckbx_Baul;
+        private System.Windows.Forms.CheckBox ckbx_Estribo;
+        private System.Windows.Forms.CheckBox ckbx_BumTra;
+        private System.Windows.Forms.CheckBox ckbx_PuertaIzTra;
+        private System.Windows.Forms.CheckBox ckbx_Techo;
+        private System.Windows.Forms.CheckBox ckbx_Taps;
+        private System.Windows.Forms.CheckBox ckbx_BumDel;
+        private System.Windows.Forms.CheckBox ckbx_PuertaIzDe;
+        private System.Windows.Forms.Button btn_Salir;
+        private System.Windows.Forms.Button btn_Gaurdar;
     }
 }

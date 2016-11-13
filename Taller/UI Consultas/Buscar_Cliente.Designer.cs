@@ -31,9 +31,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_Celular = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_email = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_Telefono = new System.Windows.Forms.TextBox();
             this.lb_InfoCliente = new System.Windows.Forms.Label();
@@ -44,22 +44,22 @@
             this.txt_Nombre = new System.Windows.Forms.TextBox();
             this.txt_Identif = new System.Windows.Forms.TextBox();
             this.lb_id = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_Salir = new System.Windows.Forms.Button();
             this.DGV_ListVh = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_Sexo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_ListVh)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox2
+            // txt_Celular
             // 
-            this.textBox2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(144, 229);
-            this.textBox2.MaxLength = 8;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(191, 26);
-            this.textBox2.TabIndex = 97;
+            this.txt_Celular.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_Celular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Celular.Location = new System.Drawing.Point(144, 229);
+            this.txt_Celular.MaxLength = 8;
+            this.txt_Celular.Name = "txt_Celular";
+            this.txt_Celular.Size = new System.Drawing.Size(191, 26);
+            this.txt_Celular.TabIndex = 97;
             // 
             // label2
             // 
@@ -71,15 +71,15 @@
             this.label2.TabIndex = 98;
             this.label2.Text = "Celular";
             // 
-            // textBox1
+            // txt_email
             // 
-            this.textBox1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(144, 279);
-            this.textBox1.MaxLength = 8;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 26);
-            this.textBox1.TabIndex = 95;
+            this.txt_email.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_email.Location = new System.Drawing.Point(144, 279);
+            this.txt_email.MaxLength = 8;
+            this.txt_email.Name = "txt_email";
+            this.txt_email.Size = new System.Drawing.Size(191, 26);
+            this.txt_email.TabIndex = 95;
             // 
             // label1
             // 
@@ -87,9 +87,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(27, 285);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 20);
+            this.label1.Size = new System.Drawing.Size(53, 20);
             this.label1.TabIndex = 96;
-            this.label1.Text = "Email";
+            this.label1.Text = "E-mail";
             // 
             // txt_Telefono
             // 
@@ -183,19 +183,20 @@
             this.lb_id.TabIndex = 78;
             this.lb_id.Text = "Indentificación";
             // 
-            // button1
+            // btn_Salir
             // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = global::Taller.Properties.Resources.Salir;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(2, 422);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 31);
-            this.button1.TabIndex = 100;
-            this.button1.Text = "Salir";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_Salir.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Salir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Salir.Image = global::Taller.Properties.Resources.Salir;
+            this.btn_Salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Salir.Location = new System.Drawing.Point(2, 422);
+            this.btn_Salir.Name = "btn_Salir";
+            this.btn_Salir.Size = new System.Drawing.Size(95, 31);
+            this.btn_Salir.TabIndex = 100;
+            this.btn_Salir.Text = "Salir";
+            this.btn_Salir.UseVisualStyleBackColor = false;
+            this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
             // DGV_ListVh
             // 
@@ -241,30 +242,30 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 27);
             this.label3.TabIndex = 103;
-            this.label3.Text = "Vehiculos";
+            this.label3.Text = "Vehículos";
             // 
-            // textBox3
+            // txt_Sexo
             // 
-            this.textBox3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(144, 142);
-            this.textBox3.MaxLength = 9;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(191, 26);
-            this.textBox3.TabIndex = 104;
+            this.txt_Sexo.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txt_Sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Sexo.Location = new System.Drawing.Point(144, 142);
+            this.txt_Sexo.MaxLength = 9;
+            this.txt_Sexo.Name = "txt_Sexo";
+            this.txt_Sexo.Size = new System.Drawing.Size(191, 26);
+            this.txt_Sexo.TabIndex = 104;
             // 
             // Buscar_Cliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(759, 465);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_Sexo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.DGV_ListVh);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.btn_Salir);
+            this.Controls.Add(this.txt_Celular);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_email);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Telefono);
             this.Controls.Add(this.lb_InfoCliente);
@@ -286,9 +287,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_Celular;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_email;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_Telefono;
         private System.Windows.Forms.Label lb_InfoCliente;
@@ -299,9 +300,9 @@
         private System.Windows.Forms.TextBox txt_Nombre;
         private System.Windows.Forms.TextBox txt_Identif;
         private System.Windows.Forms.Label lb_id;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_Salir;
         private System.Windows.Forms.DataGridView DGV_ListVh;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_Sexo;
     }
 }
