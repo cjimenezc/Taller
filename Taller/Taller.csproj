@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B30BF7F9-64DE-4981-A7AB-90869F09459B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Taller</RootNamespace>
+    <AssemblyName>Taller</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_soto_rojo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UI Trabajos\Asignar_trabajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Trabajos\Asignar_trabajo.Designer.cs">
+      <DependentUpon>Asignar_trabajo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Consultas\Buscar_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Consultas\Buscar_Cliente.Designer.cs">
+      <DependentUpon>Buscar_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Consultas\Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Consultas\Consulta.Designer.cs">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion.Designer.cs">
+      <DependentUpon>Facturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Inventario\Ingresar_Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Inventario\Ingresar_Inventario.Designer.cs">
+      <DependentUpon>Ingresar_Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Ingresar\Nuevo Colaborador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Ingresar\Nuevo Colaborador.Designer.cs">
+      <DependentUpon>Nuevo Colaborador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Ingresar\Nuevo_Vehic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Ingresar\Nuevo_Vehic.Designer.cs">
+      <DependentUpon>Nuevo_Vehic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Menus\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Menus\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Ingresar\Nuevo_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Ingresar\Nuevo_Cliente.Designer.cs">
+      <DependentUpon>Nuevo_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Menus\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Menus\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI Inventario\Salida_Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Inventario\Salida_Inventario.Designer.cs">
+      <DependentUpon>Salida_Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Trabajos\Trabajos_pendientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Trabajos\Trabajos_pendientes.Designer.cs">
+      <DependentUpon>Trabajos_pendientes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI Trabajos\Asignar_trabajo.resx">
+      <DependentUpon>Asignar_trabajo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Consultas\Buscar_Cliente.resx">
+      <DependentUpon>Buscar_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Consultas\Consulta.resx">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion.resx">
+      <DependentUpon>Facturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Inventario\Ingresar_Inventario.resx">
+      <DependentUpon>Ingresar_Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Ingresar\Nuevo Colaborador.resx">
+      <DependentUpon>Nuevo Colaborador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Ingresar\Nuevo_Vehic.resx">
+      <DependentUpon>Nuevo_Vehic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Menus\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Ingresar\Nuevo_Cliente.resx">
+      <DependentUpon>Nuevo_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Menus\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI Inventario\Salida_Inventario.resx">
+      <DependentUpon>Salida_Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Trabajos\Trabajos_pendientes.resx">
+      <DependentUpon>Trabajos_pendientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USER2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasqs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO SOTO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mantenimiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Soto2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Soto 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_application_addmale_useradd_insert_add_user_client_2312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Soto21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businesssettings_thebox_theproduct_negocio_2327.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\le-asigna-una-tarea-a-icono-4480-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pick up.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEDAN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar_icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory-management-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-male-user-30278.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar-buscar-ampliar-icono-9048-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\efactura1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon175x175.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neox-piston.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory-management-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventario salida.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory-management-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-friendly-blog-posts-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono-mas-informacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car-Repair-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naranja-nuevo-archivo-de-icono-9603-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jona-icono1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microcredito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon-warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flechaderecha.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-atras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flechaderecha1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-atras1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-curved-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sicve_Iconos-06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono-mantenimiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dar formato numérico a una columna en una tabla dinámica_ppal_thumb[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dar formato numérico a una columna en una tabla dinámica_ppal_thumb[1]1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrador-de-conexion-de-red-icono-4584-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\636076768823447122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6360767688234471221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6360767688234471222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificar-el-icono-de-informe-14125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_male_user_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vehiculo modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo_soto_rojo.ico" />
+    <None Include="Resources\borrar2.PNG" />
+    <None Include="Resources\borrar1.PNG" />
+    <None Include="Resources\borrar.PNG" />
+    <None Include="Resources\40px-Icono_buscar1.png" />
+    <None Include="Resources\iconos-02.png" />
+    <None Include="Resources\TALLER SOTO.png" />
+    <None Include="Resources\TALLER LOGO.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
